@@ -7,6 +7,8 @@ const App = () => {
 	function changeColor() {
 		if (classn == "redColor") {
 			setClass("blueColor");
+		} else {
+			setClass("redColor");
 		}
 	}
 	return (
